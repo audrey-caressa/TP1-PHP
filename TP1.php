@@ -12,6 +12,12 @@ echo $var1 + $var2; // 7.3
 start_page('Test');
 
 echo date('l F d, Y');
+echo ' <!DOCTYPE html> 
+            <html lang="fr" xmlns="http://www.w3.org/1999/html">
+                <head>
+                    <title>  LE TITRE  </title>
+                </head>
+                <body> </br> </body>';
 
 $jour = date('d/m/Y', strtotime('2020-04-01')); //strtotime -> string to date et date -> date to string
 
