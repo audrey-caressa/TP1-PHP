@@ -8,5 +8,4 @@ echo "$var1 + $var2"; //6 + 1.3
 echo $var1 + $var2; // 7.3
 //echo $var1 + $var3; // impossible
 
-start_page('titre');
 ?>

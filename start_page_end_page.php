@@ -10,5 +10,7 @@ function start_page($title)
     ;
 };
 
+start_page('titre');
+
 function
 ?>
