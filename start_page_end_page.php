@@ -10,5 +10,5 @@ function start_page($title)
     ;
 };
 
-
+function
 ?>
