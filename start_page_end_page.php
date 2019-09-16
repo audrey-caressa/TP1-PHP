@@ -4,14 +4,16 @@ function start_page($title)
     echo ' <!DOCTYPE html> 
             <html lang="fr">
                 <head>
-                    <title>' . PHP_EOL . $title . '</title>
+                    <title> . PHP_EOL . $title . </title>
                 </head>
-                <body>' . PHP_EOL //end of line
+                <body> <hr/><br/><strong>Test</strong><br/><hr/> ' //end of line
     ;
 };
 
-function end_page($title)
-{
+start_page(Test);
 
+function end_page()
+{
+    echo '</body></html>';
 }
 ?>
