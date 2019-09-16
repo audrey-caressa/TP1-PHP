@@ -13,4 +13,6 @@ start_page('Test');
 
 echo date('l F d, Y');
 
+$jour = date('l F d, Y');
+
 ?>
