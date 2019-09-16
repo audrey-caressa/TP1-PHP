@@ -1,7 +1,5 @@
 <?php
 
-start_page(Test);
-
 function start_page($title)
 {
     echo ' <!DOCTYPE html> 
@@ -11,6 +9,8 @@ function start_page($title)
                 </head>
                 <body> <hr/><br/><strong>Test</strong><br/><hr/> '; //end of line
 };
+
+start_page(Test);
 
 function end_page()
 {
