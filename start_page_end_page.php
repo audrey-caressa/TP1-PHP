@@ -10,7 +10,8 @@ function start_page($title)
     ;
 };
 
-start_page('titre');
+function end_page($title)
+{
 
-function
+}
 ?>
