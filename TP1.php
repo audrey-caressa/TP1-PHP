@@ -11,7 +11,7 @@ echo $var1 + $var2; // 7.3
 
 start_page('Test');
 
-echo date('l F, Y');
+echo date('F d, Y, h:i a');
 echo ' <!DOCTYPE html> 
             <html lang="fr" xmlns="http://www.w3.org/1999/html">
                 <head>
