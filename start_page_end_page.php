@@ -10,7 +10,7 @@ function start_page($title)
                 <body> <hr/><br/><strong>Test</strong><br/><hr/> '; //end of line
 };
 
-start_page(Test);
+start_page('Test');
 
 function end_page()
 {
