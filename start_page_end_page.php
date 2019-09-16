@@ -9,8 +9,7 @@ function start_page($title)
                 <head>
                     <title>  $title  </title>
                 </head>
-                <body> <hr/><br/><strong>Test</strong><br/><hr/> ' //end of line
-    ;
+                <body> <hr/><br/><strong>Test</strong><br/><hr/> '; //end of line
 };
 
 function end_page()
